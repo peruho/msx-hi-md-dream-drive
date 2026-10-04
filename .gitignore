@@ -1,0 +1,14 @@
+# Build artifacts
+build/
+
+# Third-party toolchain populated by tools/fetch-nextor.sh (+ Nestor80 binaries)
+toolchain/
+
+# Disk images (working + reference) are never committed
+*.img
+*.himd
+
+# Python / macOS cruft
+__pycache__/
+*.pyc
+.DS_Store

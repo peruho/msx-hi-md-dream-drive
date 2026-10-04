@@ -12,6 +12,10 @@ This project was made with the help of Claude Code.
 
 *Versión en español: [README.es.md](README.es.md).*
 
+<p align="center"><img src="docs/img/setup.jpg" width="480" alt="An Omega MSX2+ with the Rookie Drive NX, a Sony MZ-NH600 Hi-MD walkman and a USB DVD drive; the screen lists the files of a DVD"></p>
+
+*The test setup: an Omega MSX2+ with the Rookie Drive NX, the Sony MZ-NH600 Hi-MD walkman and the USB DVD drive. On screen, `FILES` listing a DVD.*
+
 ---
 
 ## What it does

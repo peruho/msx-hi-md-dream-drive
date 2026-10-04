@@ -12,6 +12,10 @@ Este es un proyecto realizado con la ayuda de Claude Code.
 
 *English version: [README.md](README.md).*
 
+<p align="center"><img src="docs/img/setup.jpg" width="480" alt="Un Omega MSX2+ con el Rookie Drive NX, un walkman Hi-MD Sony MZ-NH600 y un lector de DVD USB; en pantalla, los ficheros de un DVD"></p>
+
+*El montaje de pruebas: un Omega MSX2+ con el Rookie Drive NX, el walkman Hi-MD Sony MZ-NH600 y el lector de DVD USB. En pantalla, `FILES` listando un DVD.*
+
 ---
 
 ## Qué hace

@@ -49,7 +49,7 @@ Este es un proyecto realizado con la ayuda de Claude Code.
 ### Lo que hace falta
 
 - **Un MSX2 o superior (probado en un MSX2+) con al menos 128 KB de RAM mapeada** (memory mapper). Es imprescindible: el driver guarda su estado y su caché en un segmento de 16 KB del mapper, y sin 128 KB de RAM mapeada Nextor arranca en modo MSX-DOS 1, donde el driver (y los discos FAT16 del Hi-MD) no funcionan. 
-- **Un cartucho Rookie Drive NX** (USB con chip CH376 en los puertos de E/S 20h/21h del MSX). Otros cartuchos con CH376 en los mismos puertos deberían funcionar, pero no se han probado.
+- **Un cartucho [Rookie Drive NX](https://rookiedrive.com/es/)** (USB con chip CH376 en los puertos de E/S 20h/21h del MSX). Se puede conseguir en su web. Otros cartuchos con CH376 en los mismos puertos deberían funcionar, pero no se han probado.
 - **Una unidad USB con sectores de 2048 bytes**: un walkman Hi-MD de Sony (todos llevan conector USB) o un lector de CD/DVD USB. Ojo: los grabadores NetMD que no son Hi-MD también tienen USB, pero no sirven: no se presentan al ordenador como un disco. **Los pendrives y tarjetas (sectores de 512 bytes) no los usa este driver.**
 
 ### Lo que se ha probado
@@ -320,7 +320,7 @@ Hi-MD Dream Drive es **GPLv3** (ver `LICENSE`). La parte USB/CH376 deriva del dr
 - **Nextor** y las herramientas **Nestor80** y **mknexrom**: **Konamiman** (Nestor Soriano). La ROM lleva el núcleo de Nextor 2.1.4 sin modificar; no se incluye en el repositorio: lo descarga `tools/fetch-nextor.sh`.
 - **MSX-USB**: S0urceror. Código del CH376 tomado como base.
 - **RookieDrive-FDD-ROM**: Konamiman. De ahí viene el código original del CH376 en el que se basa MSX-USB, y se ha usado también como referencia.
-- **Rookie Drive NX**: el cartucho de **Xavi Rompe** (rookiedrive.com). Sin él, este proyecto no existiría.
+- **Rookie Drive NX**: el cartucho de **Xavi Rompe** ([rookiedrive.com](https://rookiedrive.com/es/)). Sin él, este proyecto no existiría.
 - Avisos de terceros completos en `THIRD-PARTY-NOTICES.md`.
 
 Hecho por **PERUHO** ([@peruho](https://x.com/peruho) en X) usando Claude Code, 2026. 
